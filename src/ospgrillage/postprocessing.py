@@ -19,6 +19,7 @@ import xarray as xr
 # if TYPE_CHECKING:
 from ospgrillage.load import ShapeFunction
 from ospgrillage.utils import solve_zeta_eta
+from ospgrillage.load_plot import plot_load_plan
 
 __all__ = [
     "Envelope",
@@ -39,6 +40,7 @@ __all__ = [
     "plot_def",
     "plot_model",
     "plot_srf",
+    "plot_load_plan",
 ]
 
 

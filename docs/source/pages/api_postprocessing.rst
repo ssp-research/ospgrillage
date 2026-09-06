@@ -16,6 +16,14 @@ For influence lines, :func:`~ospgrillage.postprocessing.plot_il` supports both
 ``view="ordinate"`` and ``view="path"``. Path view overlays IL ordinates in
 3D along the load trajectory using model geometry embedded in the results file.
 
+Use :func:`~ospgrillage.postprocessing.plot_load_plan` to draw a selected static
+case, moving increment or concurrent arrangement over the actual deck mesh.
+Wheel markers, line loads and shaded patches are clipped to the deck boundary.
+The function accepts a mapping of case names or LoadCase objects to factors and
+an optional governing-location marker. It renders a supplied witness rather
+than performing a governing-load search. See the executable
+:doc:`../notebooks/load_arrangements` tutorial.
+
 Factory functions
 -----------------
 
@@ -34,6 +42,7 @@ Factory functions
    ~ospgrillage.postprocessing.plot_def
    ~ospgrillage.postprocessing.plot_model
    ~ospgrillage.postprocessing.plot_srf
+   ~ospgrillage.postprocessing.plot_load_plan
    ~ospgrillage.postprocessing.model_proxy_from_results
 
 Class reference

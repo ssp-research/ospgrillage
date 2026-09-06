@@ -9,6 +9,7 @@ or viewed as rendered HTML.
 
 ../notebooks/super_t_tutorial
 ../notebooks/advanced_results
+../notebooks/load_arrangements
 ../notebooks/influence_lines_and_surfaces
 ../notebooks/mesh_showcase
 ../notebooks/multi_span

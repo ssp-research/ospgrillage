@@ -8,6 +8,14 @@ the project adheres to [Semantic Versioning](https://semver.org/).
 
 ## [Unreleased]
 
+### Added
+- `plot_load_plan()` renders static cases, selected moving increments and
+  concurrent load arrangements over the deck mesh. Point, compound, nodal,
+  line and patch loads are supported, with skew/hole-aware clipping, optional
+  carriageway edges and a governing-location marker. Includes an executable
+  notebook and accepts existing Matplotlib axes without modifying the model.
+- Shapely dependency for clipping loads to the union of actual deck cells.
+
 ### Fixed
 - Correct M1600 inter-group axle spacings to AS 5100.2:2017 Figure 7.2.4.
   The variable middle gap and final 5 m gap are measured from the preceding
