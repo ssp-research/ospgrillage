@@ -79,6 +79,7 @@ __all__ = [
     "plot_def",
     "plot_model",
     "plot_srf",
+    "plot_load_plan",
 ]
 
 
